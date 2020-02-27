@@ -1,0 +1,11 @@
+.maincontent{
+    background: lightslategrey;
+}
+ img{
+    width: 50px;
+}
+.item{
+    color: blueviolet;
+    font-weight: bold;
+    font-family: Serif;
+}

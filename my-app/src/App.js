@@ -1,23 +1,23 @@
 import React from 'react';
-import Article from './componets/Article'
 import './App.css';
+import Header from './componets/Header/header';
+import NavBar from './componets/Navbar/navbar';
+import Profile from "./componets/MainContent/profile";
 
 
-let App =() => {
-  return (
-    <div className="App">
-      <form>
-        <p><input type = "text" placeholder = "ФИО"></input></p>
 
-        <p><input type = "text" placeholder = "Марка Авто"></input> </p>
+const App = ()=> {
+    return(
+   <div className ="app-creator">
+     <Header/>
+        <NavBar/>
+        <Profile/>
+        </div>
 
-        <p><input  type = "text"  placeholder = "Гос Номера"></input></p>
 
-        <p><input type = "text" placeholder = "Vin"></input></p>
-         <input type = "submit"></input>
-        </form>
-    </div>
-  );
+
+);
 }
+
 
 export default App;

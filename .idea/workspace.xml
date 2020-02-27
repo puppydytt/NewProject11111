@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d729b5-d2da-47a0-8752-387a0f948cd3" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,36 +14,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Users\puppydytt-pc\git\Git GUI.lnk" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="ProjectId" id="1XcoOdr5emBkqd7iy3csAK2iW7Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject\my-app\src\componets" />
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject\my-app\src" />
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject\my-app\src\components" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts" />
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile\posts" />
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile" />
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile\posts\NewPosts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NewProject/main.html" useBuiltInWebServerPort="true">
@@ -70,11 +75,75 @@
       <workItem from="1581354917362" duration="3327000" />
       <workItem from="1581362673687" duration="1018000" />
       <workItem from="1581427400720" duration="6342000" />
-      <workItem from="1581451145903" duration="1010000" />
+      <workItem from="1581451145903" duration="1377000" />
+      <workItem from="1581485987899" duration="774000" />
+      <workItem from="1581513627388" duration="251000" />
+      <workItem from="1581574080068" duration="114000" />
+      <workItem from="1581949997002" duration="54000" />
+      <workItem from="1581950239048" duration="6000" />
+      <workItem from="1582052184320" duration="1015000" />
+      <workItem from="1582118519979" duration="508000" />
+      <workItem from="1582205614963" duration="898000" />
+      <workItem from="1582262672403" duration="343000" />
+      <workItem from="1582296058455" duration="60000" />
+      <workItem from="1582445550421" duration="1774000" />
+      <workItem from="1582452354356" duration="5817000" />
+      <workItem from="1582466532562" duration="8627000" />
+      <workItem from="1582475290700" duration="1003000" />
+      <workItem from="1582547785725" duration="12320000" />
+      <workItem from="1582571829847" duration="333000" />
+      <workItem from="1582607947298" duration="365000" />
+      <workItem from="1582648078965" duration="5990000" />
+      <workItem from="1582656911181" duration="1219000" />
+      <workItem from="1582693778241" duration="2205000" />
+      <workItem from="1582725332749" duration="862000" />
+      <workItem from="1582726213506" duration="3488000" />
+      <workItem from="1582737592800" duration="523000" />
+      <workItem from="1582738127608" duration="881000" />
+      <workItem from="1582739020340" duration="6470000" />
+      <workItem from="1582780478449" duration="1597000" />
+      <workItem from="1582821697439" duration="1423000" />
+      <workItem from="1582823620527" duration="1000" />
+      <workItem from="1582826797860" duration="4200000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582737329207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582737329207" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582725479793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582725479793" />
+    <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582052595001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582052595001" />
+    <state x="616" y="242" key="run.anything.popup" timestamp="1582448119285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582448119285" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582736746747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582736746747" />
   </component>
 </project>
