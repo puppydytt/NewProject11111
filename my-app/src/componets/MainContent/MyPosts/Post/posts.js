@@ -2,14 +2,15 @@ import React from 'react';
 import classes from './posts.module.css'
 import Button from "./button";
 
-const Posts =()=> {
+const Posts =(props)=> {
+
     return(
 
 
 
         <div className = {classes.item}>
         <img  src = "http://pngimg.com/uploads/cloud/cloud_PNG27.png" alt ="" />
-        Post 1
+            {props.message}
         <div>
         <a>
     <Button/>

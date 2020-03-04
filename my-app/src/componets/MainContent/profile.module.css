@@ -1,8 +1,9 @@
 .maincontent{
     background: lightslategrey;
+    border-radius: 10px
 }
  img{
-    width: 50px;
+    width: 100px;
 }
 .item{
     color: blueviolet;

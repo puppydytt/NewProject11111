@@ -1,14 +1,23 @@
 .app-creator {
     display: grid;
-
     grid-template-areas:
-            "header header header"
-            "nav content content";
-    grid-template-rows: 60px 1fr;
-    grid-template-columns: 2fr 10fr;
+            "header header"
+             "content chat"
+             "nav nav ";
+
+    grid-template-rows: 100px 800px 100px;
     grid-gap: 10px;
 
 }
+
+.app-creator{
+    font-size: large;
+    font-style: oblique;
+    font-weight: 500;
+
+}
+
+
 
 
 

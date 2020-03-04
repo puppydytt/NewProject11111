@@ -34,21 +34,21 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile\posts" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile\posts\NewPosts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,7 +104,21 @@
       <workItem from="1582780478449" duration="1597000" />
       <workItem from="1582821697439" duration="1423000" />
       <workItem from="1582823620527" duration="1000" />
-      <workItem from="1582826797860" duration="4200000" />
+      <workItem from="1582826797860" duration="4861000" />
+      <workItem from="1582832088462" duration="70000" />
+      <workItem from="1582893244298" duration="2000" />
+      <workItem from="1583062346890" duration="197000" />
+      <workItem from="1583153046987" duration="1186000" />
+      <workItem from="1583167415675" duration="1143000" />
+      <workItem from="1583171447360" duration="158000" />
+      <workItem from="1583171654599" duration="98000" />
+      <workItem from="1583175732477" duration="166000" />
+      <workItem from="1583260667249" duration="2579000" />
+      <workItem from="1583263260393" duration="801000" />
+      <workItem from="1583264078828" duration="241000" />
+      <workItem from="1583328912537" duration="2810000" />
+      <workItem from="1583331777087" duration="2361000" />
+      <workItem from="1583343657902" duration="2957000" />
     </task>
     <servers />
   </component>
@@ -125,25 +139,29 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582737329207">
+    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583261812041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582737329207" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582725479793">
+    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583261812041" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583262318888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582725479793" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583262318888" />
     <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582052595001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582052595001" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1583175897326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583175897326" />
     <state x="616" y="242" key="run.anything.popup" timestamp="1582448119285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582448119285" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582736746747">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583340759522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582736746747" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583340759522" />
   </component>
 </project>

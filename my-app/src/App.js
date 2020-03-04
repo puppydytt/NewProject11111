@@ -1,18 +1,20 @@
 import React from 'react';
 import './App.css';
-import Header from './componets/Header/header';
-import NavBar from './componets/Navbar/navbar';
+import Header from "./componets/Header/header";
+import Basement from './componets/Basment/basement';
 import Profile from "./componets/MainContent/profile";
+import Chat from "./componets/Chat/Chat";
 
 
 
 const App = ()=> {
     return(
    <div className ="app-creator">
-     <Header/>
-        <NavBar/>
+        <Header/>
+        <Basement/>
         <Profile/>
-        </div>
+        <Chat/>
+        </div> 
 
 
 

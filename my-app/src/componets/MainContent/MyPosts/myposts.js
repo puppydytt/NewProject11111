@@ -6,10 +6,10 @@ const MyPosts =()=> {
     return(
 
         <div className ={classes.maincontent}>
-      <Posts/>
-        <Posts/>
-        <Posts/>
-        <Posts/>
+      <Posts message = "Hello does anybody here?"/>
+        <Posts message = "Hello, I'm here"/>
+
+
 
     </div>
 

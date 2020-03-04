@@ -1,26 +1,27 @@
 import React from 'react';
-import classes from './navbar.module.css'
+import classes from './basement.module.css'
 
-const NavBar = () =>{
+const Basement = () =>{
     return(
 
         <nav className = {classes.nav}>
         <div className = {classes.item}>
-        <a>  Friends </a>
+        <a>  FAQ </a>
         </div>
         <div className = {classes.item}>
-        <a>  News </a>
+        <a>  ABOUT US </a>
         </div>
         <div className ={classes.item}>
-        <a>Messages</a>
+        <a>Support</a>
         </div>
+
 
     </nav>
 
     );
 }
 
-export default NavBar;
+export default Basement;
 
 
 
