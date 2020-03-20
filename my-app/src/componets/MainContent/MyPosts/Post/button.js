@@ -1,11 +1,17 @@
 import React from 'react';
 import classes from './button.module.css';
+import Posts from "./posts";
 
-const Button =() =>{
-    return(
-        <div>
-       <button className ={classes.button} onClick = { ()=>{alert("Uploaded")}}>Upload</button>
-    </div>
+const Button = () => {
+    return (
+        <mtd>
+            <button className={classes.button} onClick={() => {
+                alert("Uploaded")
+            }}>Upload
+            </button>
+
+        </mtd>
+
     );
 }
 

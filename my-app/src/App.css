@@ -1,23 +1,28 @@
 .app-creator {
     display: grid;
-    grid-template-areas:
-            "header header"
-             "content chat"
-             "nav nav ";
+    grid-template-rows: 70px 800px 45px;
+    row-gap: 10px;
+    margin: 1px;
 
-    grid-template-rows: 100px 800px 100px;
-    grid-gap: 10px;
+}
+.grid1{
+    background: linear-gradient(50deg, #EECFBA, #C5DDE8);
+    align-content: center;
+}
+
+.app-content {
+    background: linear-gradient(50deg, #EECFBA, #C5DDE8);
+    align-content: center;
+
 
 }
 
-.app-creator{
-    font-size: large;
-    font-style: oblique;
-    font-weight: 500;
 
+
+.grid4 {
+    align-content: center;
+
+
+    background: linear-gradient(50deg, #EECFBA, #C5DDE8);
 }
-
-
-
-
 

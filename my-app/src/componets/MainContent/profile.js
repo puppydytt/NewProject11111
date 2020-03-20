@@ -1,28 +1,19 @@
 import React from 'react';
 import classes from './profile.module.css'
 import MyPosts from "./MyPosts/myposts";
+import ProfileDescription from "./ProfileDescription/profiledescription";
 
 
-const Profile =()=> {
-    return(
-        <div className ={classes.maincontent}>
-           <div>
-        <img src ="http://pngimg.com/uploads/aston_martin/aston_martin_PNG25.png" alt=""></img>
-        </div>
-        <div>
-        ava + description
-        </div>
-        <MyPosts/>
-        </div>
+const Profile = () => {
+    return (
+        <React.Fragment>
+            <mtd className={classes.maincontent}>
+                <ProfileDescription/>
+                <MyPosts/>
+            </mtd>
+        </React.Fragment>
     );
 }
-
-
-
-
-
-
-
 
 
 export default Profile

@@ -1,28 +1,32 @@
 import React from 'react';
 import classes from './header.module.css'
+import {NavLink} from "react-router-dom";
 
-const Header =() =>{
-    return(
-        <header className={classes.header}>
-            <img src ="https://i.stack.imgur.com/pVJ3E.png" alt=""></img>
-            <nav className = {classes.nav}>
-                <div className = {classes.item}>
-                    <a>  Friends </a>
-                </div>
-                <div className = {classes.item}>
-                    <a>  News </a>
-                </div>
-                <div className ={classes.item}>
-                    <a>Messages</a>
-                </div>
-                <div className={classes.item}>
-                    Settings
-                </div>
+const Header = () => {
+    return (
+        <React.Fragment>
+            <mtd className={classes.header} >
+                <dt className={classes.nav}>
+            <td className={classes.item}>
+                <NavLink to="/profile.js" activeClassName={classes.active}>Profile </NavLink>
+            </td>
 
-            </nav>
-        </header>
+            <td className={classes.item}>
+                <NavLink to="/messages.js" activeClassName={classes.active}>Messages </NavLink>
+            </td>
 
-    );
+            <td className={classes.item}>
+                <NavLink to ="friends.js" activeClassName={classes.active}>Friends </NavLink>
+            </td>
+            <td className={classes.item}>
+                <NavLink to="settings.js" activeClassName={classes.active}>Settings </NavLink>
+            </td>
+                </dt>
+            </mtd>
+
+        </React.Fragment>
+
+);
 }
 
 export default Header;

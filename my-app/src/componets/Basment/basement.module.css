@@ -1,14 +1,13 @@
-.nav {
-    grid-area: nav;
-    background: lightcoral;
-}
+
 .item{
     color: black;
     display: inline;
+
 }
 
 .item{
     font-family: Serif;
     font-weight: 500;
     margin-left: 200px;
+    line-height: 35px;
 }

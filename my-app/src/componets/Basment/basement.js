@@ -1,23 +1,25 @@
 import React from 'react';
-import classes from './basement.module.css'
-
-const Basement = () =>{
-    return(
-
-        <nav className = {classes.nav}>
-        <div className = {classes.item}>
-        <a>  FAQ </a>
-        </div>
-        <div className = {classes.item}>
-        <a>  ABOUT US </a>
-        </div>
-        <div className ={classes.item}>
-        <a>Support</a>
-        </div>
+import classes from './basement.module.css';
+import {NavLink} from "react-router-dom";
 
 
-    </nav>
+const Basement = () => {
+    return (
+<React.Fragment>
+        <mtd className={classes.nav}>
+            <td className={classes.item}>
+                <NavLink to="#"> FAQ </NavLink>
+            </td>
+            <td className={classes.item}>
+                <NavLink to="#"> ABOUT US </NavLink>
+            </td>
+            <td className={classes.item}>
+                <NavLink to ="#">Support</NavLink>
+            </td>
 
+
+            </mtd>
+</React.Fragment>
     );
 }
 
