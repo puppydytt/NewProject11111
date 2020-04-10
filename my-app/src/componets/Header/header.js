@@ -2,27 +2,28 @@ import React from 'react';
 import classes from './header.module.css'
 import {NavLink} from "react-router-dom";
 
-const Header = () => {
+
+const Header = (props) => {
     return (
         <React.Fragment>
-            <mtd className={classes.header} >
-                <dt className={classes.nav}>
-            <td className={classes.item}>
+            <div className={classes.header} >
+                <div className={classes.nav}>
+            <div className={classes.item}>
                 <NavLink to="/profile.js" activeClassName={classes.active}>Profile </NavLink>
-            </td>
+            </div>
 
-            <td className={classes.item}>
-                <NavLink to="/messages.js" activeClassName={classes.active}>Messages </NavLink>
-            </td>
+            <div className={classes.item}>
+                <NavLink to="/messages.js" activeClassName={classes.active }>Messages </NavLink>
+            </div>
 
-            <td className={classes.item}>
+            <div className={classes.item}>
                 <NavLink to ="friends.js" activeClassName={classes.active}>Friends </NavLink>
-            </td>
-            <td className={classes.item}>
+            </div>
+            <div className={classes.item}>
                 <NavLink to="settings.js" activeClassName={classes.active}>Settings </NavLink>
-            </td>
-                </dt>
-            </mtd>
+            </div>
+                </div>
+            </div>
 
         </React.Fragment>
 

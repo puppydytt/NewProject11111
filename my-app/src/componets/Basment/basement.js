@@ -6,19 +6,19 @@ import {NavLink} from "react-router-dom";
 const Basement = () => {
     return (
 <React.Fragment>
-        <mtd className={classes.nav}>
-            <td className={classes.item}>
+        <div className={classes.nav}>
+            <div className={classes.item}>
                 <NavLink to="#"> FAQ </NavLink>
-            </td>
-            <td className={classes.item}>
+            </div>
+            <div className={classes.item}>
                 <NavLink to="#"> ABOUT US </NavLink>
-            </td>
-            <td className={classes.item}>
+            </div>
+            <div className={classes.item}>
                 <NavLink to ="#">Support</NavLink>
-            </td>
+            </div>
 
 
-            </mtd>
+            </div>
 </React.Fragment>
     );
 }

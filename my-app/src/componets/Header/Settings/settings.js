@@ -3,7 +3,9 @@ import classes from "./settings.module.css";
 
 const Settings =()=>{
     return(
-        <mtd>settings</mtd>
+        <mtd className ={classes.settings}>
+            settings
+        </mtd>
     );
 }
 

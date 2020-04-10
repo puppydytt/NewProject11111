@@ -3,9 +3,11 @@ import classes from "./profiledescription.module.css"
 
 const ProfileDescription =(props)=>{
     return(
-        <td>
-            ava + description
-        </td>
+        <React.Fragment>
+        <div>
+            <div className={classes.description}>ava+description</div>
+        </div>
+        </React.Fragment>
     );
 }
 

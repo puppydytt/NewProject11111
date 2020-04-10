@@ -1,17 +1,18 @@
 .app-creator {
     display: grid;
-    grid-template-rows: 70px 800px 45px;
-    row-gap: 10px;
-    margin: 1px;
+    grid-template-rows: 70px 800px 55px;
+    row-gap: 5px;
+    margin-top: 1px;
+
 
 }
 .grid1{
-    background: linear-gradient(50deg, #EECFBA, #C5DDE8);
+    background: deeppink;
     align-content: center;
 }
 
 .app-content {
-    background: linear-gradient(50deg, #EECFBA, #C5DDE8);
+    background: dimgrey; /*grid-rows 2+3*/
     align-content: center;
 
 
@@ -20,9 +21,7 @@
 
 
 .grid4 {
+    background: dodgerblue;
     align-content: center;
-
-
-    background: linear-gradient(50deg, #EECFBA, #C5DDE8);
 }
 

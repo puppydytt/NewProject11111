@@ -1,9 +1,12 @@
 import React from "react";
 
-const Friends = () => {
+
+
+
+const Friends =(props)=>{
     return (
         <React.Fragment>
-            <mtd> Friends</mtd>
+
         </React.Fragment>
     );
 }

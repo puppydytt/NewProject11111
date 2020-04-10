@@ -19,3 +19,16 @@
 .message{
     padding: 10px;
 }
+
+.sendMessage{
+    width: 60px;
+    border-radius:5px;
+    border-color: black;
+    background: deeppink;
+}
+
+.textMessage{
+    border-radius: 10px;
+    border-color: black;
+    background: dodgerblue;
+}

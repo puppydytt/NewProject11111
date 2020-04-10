@@ -4,16 +4,17 @@ import MyPosts from "./MyPosts/myposts";
 import ProfileDescription from "./ProfileDescription/profiledescription";
 
 
-const Profile = () => {
+
+const Profile = (props) => {
     return (
         <React.Fragment>
-            <mtd className={classes.maincontent}>
+            <div className={classes.maincontent}>
                 <ProfileDescription/>
-                <MyPosts/>
-            </mtd>
+                <MyPosts state={props.state}/>
+            </div>
         </React.Fragment>
     );
-}
+};
 
 
-export default Profile
+export default Profile;

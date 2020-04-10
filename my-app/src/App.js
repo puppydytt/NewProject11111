@@ -9,28 +9,28 @@ import Settings from "./componets/Header/Settings/settings";
 import Basement from './componets/Basment/basement';
 
 
-const App = () => {
+const App = (props) => {
     return (
 
         <React.Fragment>
             <BrowserRouter>
-                <mtd className="app-creator">
-                    <td className="grid1"><Header/></td>
-                    <dt className="app-content">
-                        <Route path="/messages.js" component={Messages}/>
-                        <Route path="/profile.js" component={Profile}/>
-                        <Route path="/friends.js" component={Friends}/>
-                        <Route path="/settings.js" component={Settings}/>
-                    </dt>
-                    <td className="grid4"><Basement/></td>
-                </mtd>
+                <div className="app-creator">
+                    <div className="grid1"><Header/></div>
+                    <div className="app-content">
+                        <Route path="/messages.js" render={() => <Messages state={props.state}/>}/>
+                        <Route path="/profile.js" render={() => <Profile state={props.state}/>}/>
+                        <Route path="/friends.js" render={() => <Friends state={props.state}/>}/>
+                        <Route path="/settings.js" render={() => <Settings state={props.state}/>}/>
+                    </div>
+                    <div className="grid4"><Basement/></div>
+                </div>
             </BrowserRouter>
         </React.Fragment>
 
 
     );
-}
-
+};
 
 export default App;
+
 
