@@ -1,4 +1,8 @@
-export const state = {
+import {rerenderEntireTree} from "../../render";
+
+
+const state = {
+
 
     userPage: {
         user: [
@@ -19,18 +23,14 @@ export const state = {
 
     emotionPage: {
         emotion: [
-            {id: 1, mood: 'fine'},
-            {id: 2, mood: 'so-so'}
-        ]
+            {id: 1, mood: 'How are you doing?'}
+        ],
+        newEmotionTextElement: ''
     },
 
 
     friendsPage: {
-        friends: [
-            {id: 1, friend: 'Dima'},
-            {id: 2, friend: 'Anton'},
-            {id: 3, friend: 'Andrey'}
-        ]
+        friends: 'FriendsPage'
     },
 
 
@@ -39,17 +39,46 @@ export const state = {
             {id: 1, dialog: 'message1'},
             {id: 2, dialog: 'message2'},
             {id: 3, dialog: 'message3'}
-        ]
+        ],
+        messageTextElement: ''
     }
+
 };
 
+window.state = state;
 
-export  let  newMessageElement = (textMessage)=>{
+export let newMessageElement = () => {
     let newUserMessage = {
         id: 5,
-        dialog: textMessage
+        dialog: state.userMessages.messageTextElement
     };
     state.userMessages.messages.push(newUserMessage);
+    state.userMessages.messageTextElement = ""
+    rerenderEntireTree(state);
+
+};
+
+export let newMessageElementUpdate = (newMessage) => {
+    state.userMessages.messageTextElement = newMessage
+    rerenderEntireTree(state);
+
 };
 
 
+export let newUserMood = () => {
+
+    let newMood = {
+        id: 3,
+        mood: state.emotionPage.newEmotionTextElement
+    };
+    state.emotionPage.emotion.push(newMood);
+    state.emotionPage.newEmotionTextElement = ""
+    rerenderEntireTree(state);
+};
+
+export let newMessageMoodUpdate = (newText) => {
+    state.emotionPage.newEmotionTextElement = newText;
+    rerenderEntireTree(state);
+};
+
+export default state;

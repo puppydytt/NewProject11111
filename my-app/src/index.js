@@ -1,11 +1,8 @@
-import {state} from "../src/componets/StateData/state"
-import './index.css';
-import {renderEntireTree} from "./render";
+import * as serviceWorker from './serviceWorker';
+import './index.css'
+import {rerenderEntireTree} from "./render";
+import state from "./componets/StateData/state";
 
+rerenderEntireTree(state);
 
-renderEntireTree(state);
-
-
-
-
-
+serviceWorker.unregister();

@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import {state} from './componets/StateData/state'
+import ReactDOM from "react-dom";
+import App from "./App";
+import React from "react";
+import {newUserMood, newMessageMoodUpdate, newMessageElementUpdate, newMessageElement} from "./componets/StateData/state";
 
 
 
-export const renderEntireTree =()=> {
-    ReactDOM.render(<App state={state}/>, document.getElementById('root'));
+
+export const rerenderEntireTree =(state)=> {
+    ReactDOM.render
+    (<App state={state} newUserMood={newUserMood}
+          newMessageMoodUpdate={newMessageMoodUpdate}
+          newMessageElementUpdate={newMessageElementUpdate}
+          newMessageElement={newMessageElement}/>, document.getElementById('root'));
 };
 
-serviceWorker.unregister();
