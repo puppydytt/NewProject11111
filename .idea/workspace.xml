@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a1d729b5-d2da-47a0-8752-387a0f948cd3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/render.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +42,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\State " />
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\State " />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\Header\Messages" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile\posts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\State " />
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
     </key>
   </component>
   <component name="RunManager">
@@ -251,6 +244,11 @@
       <workItem from="1587453655919" duration="14925000" />
       <workItem from="1587478156133" duration="170000" />
       <workItem from="1587482673358" duration="4127000" />
+      <workItem from="1587541902270" duration="4660000" />
+      <workItem from="1587574733817" duration="1872000" />
+      <workItem from="1587625282437" duration="5114000" />
+      <workItem from="1587635999870" duration="2940000" />
+      <workItem from="1587651434792" duration="1212000" />
     </task>
     <servers />
   </component>

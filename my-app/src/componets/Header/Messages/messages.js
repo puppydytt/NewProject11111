@@ -21,7 +21,7 @@ const Messages = (props) => {
 
     const sendMessage = () => {
         let textMessage = newMessage.current.value;
-        props.newMessageMoodElement(textMessage);
+        props.newMessageElement(textMessage);
     };
     return (
         <React.Fragment>
