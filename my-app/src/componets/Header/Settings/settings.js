@@ -3,9 +3,13 @@ import classes from "./settings.module.css";
 
 const Settings =()=>{
     return(
-        <mtd className ={classes.settings}>
+        <React.Fragment>
+
+        <div className ={classes.settings}>
             settings
-        </mtd>
+        </div>
+
+        </React.Fragment>
     );
 }
 

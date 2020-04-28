@@ -18,8 +18,8 @@ const App = (props) => {
                 <div className="app-creator">
                     <div className="grid1"><Header/></div>
                     <div className="app-content">
-                        <Route path="/messages.js" render={() => <Messages state={props.state} newMessageElementUpdate={props.newMessageElementUpdate} newMessageElement={props.newMessageElement}/>}/>
-                        <Route path="/profile.js" render={() => <Profile state={props.state} newPostTextElement={props.state.emotionPage.newEmotionTextElement} newUserMood={props.newUserMood} newMessageMoodUpdate={props.newMessageMoodUpdate}/>}/>
+                        <Route path="/messages.js" render={() => <Messages state={props.state} dispatch={props.dispatch}/>}/>
+                        <Route path="/profile.js" render={() => <Profile state={props.state}  dispatch={props.dispatch}/>}/>
                         <Route path="/friends.js" render={() => <Friends friendsPage={props.state.friendsPage}/>}/>
                         <Route path="/settings.js" render={() => <Settings state={props.state}/>}/>
                     </div>
@@ -27,7 +27,6 @@ const App = (props) => {
                 </div>
             </BrowserRouter>
         </React.Fragment>
-
 
     );
 };

@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d729b5-d2da-47a0-8752-387a0f948cd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/emotionPageReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/userMessagesReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/Dialog/dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/Dialog/dialog.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +38,9 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1XcoOdr5emBkqd7iy3csAK2iW7Z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/componets/State " />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -42,16 +56,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\State " />
-      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\State " />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\Header\Messages" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts" />
       <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\profile\posts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\State " />
+      <recent name="C:\Users\puppydytt-pc\Desktop\NewProject11111\my-app\src\componets\MainContent\MyPosts\Post" />
     </key>
   </component>
   <component name="RunManager">
@@ -248,7 +262,17 @@
       <workItem from="1587574733817" duration="1872000" />
       <workItem from="1587625282437" duration="5114000" />
       <workItem from="1587635999870" duration="2940000" />
-      <workItem from="1587651434792" duration="1212000" />
+      <workItem from="1587651434792" duration="1727000" />
+      <workItem from="1587714398040" duration="1100000" />
+      <workItem from="1587725339386" duration="5000" />
+      <workItem from="1587732773800" duration="1387000" />
+      <workItem from="1587739593021" duration="3319000" />
+      <workItem from="1587805468348" duration="1772000" />
+      <workItem from="1587900163195" duration="2645000" />
+      <workItem from="1587968827134" duration="7416000" />
+      <workItem from="1587987977428" duration="4940000" />
+      <workItem from="1588002839629" duration="4545000" />
+      <workItem from="1588058004322" duration="1648000" />
     </task>
     <servers />
   </component>
@@ -276,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1587108380534" />
-    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586499137346">
+    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588003638773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586499137346" />
+    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588003638773" />
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587106488676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -308,9 +332,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587486344675" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587486315471">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587970625785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587486315471" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587970625785" />
   </component>
 </project>

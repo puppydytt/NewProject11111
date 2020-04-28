@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .dialogs{
  display: grid;
     grid-template-columns: 100px 2fr;
@@ -5,7 +7,7 @@
 
 
 .users{
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .user{

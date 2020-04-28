@@ -10,10 +10,7 @@ import React from "react";
 
 export const rerenderEntireTree =(state)=> {
     ReactDOM.render
-    (<App state={state} newUserMood={store.newUserMood.bind(store)}
-          newMessageMoodUpdate={store.newMessageMoodUpdate.bind(store)}
-          newMessageElementUpdate={store.newMessageElementUpdate.bind(store)}
-          newMessageElement={store.newMessageElement.bind(store)}/>, document.getElementById('root'));
+    (<App state={state} dispatch={store.dispatch.bind(store)}/>, document.getElementById('root'));
 };
 
 rerenderEntireTree(store.getState());

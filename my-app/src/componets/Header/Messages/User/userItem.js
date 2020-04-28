@@ -7,7 +7,9 @@ const UserItem = (props) => {
     let path = "/dialogs/" + props.id;
     return (
         <div className={classes.user}>
-            <NavLink to={path}>{props.name}</NavLink>
+            <NavLink to={path}>
+                {props.name}
+            </NavLink>
         </div>
     );
 }

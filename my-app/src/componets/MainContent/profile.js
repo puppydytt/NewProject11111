@@ -10,7 +10,7 @@ const Profile = (props) => {
         <React.Fragment>
             <div className={classes.maincontent}>
                 <ProfileDescription/>
-                <MyPosts state={props.state} newEmotionTextElement={props.state.emotionPage.newEmotionTextElement} newUserMood={props.newUserMood} newMessageMoodUpdate={props.newMessageMoodUpdate} />
+                <MyPosts state={props.state} dispatch={props.dispatch}/>
             </div>
         </React.Fragment>
     );
