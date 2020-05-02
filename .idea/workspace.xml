@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d729b5-d2da-47a0-8752-387a0f948cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/emotionPageReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/userMessagesReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/Dialog/dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/Dialog/dialog.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/emotionPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/emotionPageReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/userMessagesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/userMessagesReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,6 +263,15 @@
       <workItem from="1587987977428" duration="4940000" />
       <workItem from="1588002839629" duration="4545000" />
       <workItem from="1588058004322" duration="1648000" />
+      <workItem from="1588059953146" duration="7181000" />
+      <workItem from="1588149887847" duration="2930000" />
+      <workItem from="1588156840033" duration="1310000" />
+      <workItem from="1588167348375" duration="988000" />
+      <workItem from="1588234025171" duration="2647000" />
+      <workItem from="1588243791247" duration="3140000" />
+      <workItem from="1588262831417" duration="1260000" />
+      <workItem from="1588327366467" duration="3192000" />
+      <workItem from="1588414248815" duration="3710000" />
     </task>
     <servers />
   </component>
