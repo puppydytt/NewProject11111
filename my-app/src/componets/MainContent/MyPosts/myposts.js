@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './myposts.module.css'
 import Posts from "./Post/posts";
-import {addPostActionCreator, onPostChangeActionCreator} from "../../StateData/state";
+import {addPostActionCreator, onPostChangeActionCreator} from "../../StateData/emotionPageReducer";
 
 
 const MyPosts = (props) => {debugger;

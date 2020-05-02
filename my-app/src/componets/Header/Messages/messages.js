@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './messages.module.css';
 import Dialog from "./Dialog/dialog";
 import UserItem from "./User/userItem.js"
-import {newMessageActionCreator, newMessageUpdateActionCreator} from "../../StateData/state";
+import {newMessageActionCreator, newMessageUpdateActionCreator} from "../../StateData/userMessagesReducer";
 
 
 const Messages = (props) => {debugger;
