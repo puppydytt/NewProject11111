@@ -1,31 +1,31 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import './App.css';
 import Header from "./componets/Header/header";
 import Profile from "./componets/MainContent/profile";
-import Messages from "./componets/Header/Messages/messages";
-import Friends from "./componets/Header/Friends/friends";
-import Settings from "./componets/Header/Settings/settings";
+import FriendsContainer from "./componets/Header/Friends/FriendsContainer";
+import SettingsContainer from "./componets/Header/Settings/SettingContainer";
 import Basement from './componets/Basment/basement';
-
+import MessagesContainer from "./componets/Header/Messages/MessagesContainer";
 
 
 const App = (props) => {
+    debugger;
     return (
 
         <React.Fragment>
-            <BrowserRouter>
-                <div className="app-creator">
-                    <div className="grid1"><Header/></div>
-                    <div className="app-content">
-                        <Route path="/messages.js" render={() => <Messages state={props.state} dispatch={props.dispatch}/>}/>
-                        <Route path="/profile.js" render={() => <Profile state={props.state}  dispatch={props.dispatch}/>}/>
-                        <Route path="/friends.js" render={() => <Friends friendsPage={props.state.friendsPage}/>}/>
-                        <Route path="/settings.js" render={() => <Settings state={props.state}/>}/>
-                    </div>
-                    <div className="grid4"><Basement/></div>
+
+            <div className="app-creator">
+                <div className="header"><Header/></div>
+                <div className="content">
+                    <Route path="/messages.js" render={() => <MessagesContainer/>}/>
+                    <Route path="/profile.js" render={() => <Profile/>}/>
+                    <Route path="/friends.js" render={() => <FriendsContainer/>}/>
+                    <Route path="/settings.js" render={() => <SettingsContainer/>}/>
                 </div>
-            </BrowserRouter>
+                <div className="footer"><Basement/></div>
+            </div>
+
         </React.Fragment>
 
     );

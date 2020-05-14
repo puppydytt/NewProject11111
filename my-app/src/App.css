@@ -1,27 +1,21 @@
 .app-creator {
     display: grid;
-    grid-template-rows: 70px 800px 55px;
-    row-gap: 5px;
-    margin-top: 1px;
-
-
-}
-.grid1{
-    background: deeppink;
-    align-content: center;
+    grid-row-gap: 5px;
+    grid-template-rows: 60px 850px 35px;
 }
 
-.app-content {
-    background: dimgrey; /*grid-rows 2+3*/
-    align-content: center;
-
-
+.header {
+    position: relative;
+    background-color: lawngreen;
 }
 
-
-
-.grid4 {
-    background: dodgerblue;
-    align-content: center;
+.content {
+    border-radius: 13px;
+    background-color: blanchedalmond;
+    text-decoration: none;
 }
 
+.footer {
+    position: relative;
+    background-color: lawngreen;
+}

@@ -1,26 +1,40 @@
 const NEW_MOOD_UPLOAD = 'NEW-MOOD-UPLOAD';
 const NEW_MESSAGE_MOOD_UPDATE = 'NEW-MESSAGE-MOOD-UPDATE';
 
+let initialState = {
+    emotion: [
+        {id: 1, mood: 'Tell subs about your plans'}
+    ],
+    newEmotionTextElement: ''
+}
 
-const emotionPageReducer = (action, state) => {
+
+const emotionPageReducer = (state = initialState, action) => {
     debugger;
     switch (action.type) {
-        case NEW_MOOD_UPLOAD:
+        case NEW_MOOD_UPLOAD: {
+            let stateCopy = {...state}
+            stateCopy.emotion = [...state.emotion]
             let newMood = {
                 id: 3,
                 mood: state.newEmotionTextElement
             };
-            state.emotion.push(newMood);
-            state.newEmotionTextElement = "";
-            return state;
+            stateCopy.emotion.push(newMood);
+            stateCopy.newEmotionTextElement = "";
+            return stateCopy;
+        }
         case NEW_MESSAGE_MOOD_UPDATE:
-            state.newEmotionTextElement = action.newText;
-            return state;
+            let stateCopy = {...state}
+            stateCopy.newEmotionTextElement = {...state.newEmotionTextElement}
+            stateCopy.newEmotionTextElement = action.newText;
+            return stateCopy;
+
         default:
             return state
 
 
     }
+
 
 }
 export const addPostActionCreator = () => ({type: NEW_MOOD_UPLOAD}) //For profile page action addPost creator

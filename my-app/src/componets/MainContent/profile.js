@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './profile.module.css'
-import MyPosts from "./MyPosts/myposts";
 import ProfileDescription from "./ProfileDescription/profiledescription";
+import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 
 
@@ -10,7 +10,7 @@ const Profile = (props) => {
         <React.Fragment>
             <div className={classes.maincontent}>
                 <ProfileDescription/>
-                <MyPosts state={props.state} dispatch={props.dispatch}/>
+                <MyPostsContainer/>
             </div>
         </React.Fragment>
     );

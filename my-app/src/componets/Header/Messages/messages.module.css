@@ -1,36 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .dialogs{
- display: grid;
+    display: grid;
     grid-template-columns: 100px 2fr;
 }
 
 
-.users{
+.users {
     font-family: 'Montserrat', sans-serif;
+    border: 5px;
 }
 
 .user{
   padding: 10px;
 }
 
-.messages{
 
-}
 
 .message{
     padding: 10px;
 }
 
-.sendMessage{
-    width: 60px;
-    border-radius:5px;
+.sendMessage {
+    width: 90px;
+    height: 55px;
+    border-radius: 5px;
     border-color: black;
     background: deeppink;
 }
 
-.textMessage{
+.textMessage {
+    width: 600px;
+    height: 50px;
     border-radius: 10px;
     border-color: black;
     background: dodgerblue;
+}
+
+.chatArea {
+    display: inline;
+    position: relative;
+
+}
+
+.userArea {
+
 }

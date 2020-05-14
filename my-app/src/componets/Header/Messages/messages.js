@@ -2,41 +2,40 @@ import React from 'react';
 import classes from './messages.module.css';
 import Dialog from "./Dialog/dialog";
 import UserItem from "./User/userItem.js"
-import {newMessageActionCreator, newMessageUpdateActionCreator} from "../../StateData/userMessagesReducer";
 
 
-const Messages = (props) => {debugger;
 
-    let UserElements = props.state.userPage.user
-        .map(props => <UserItem id={props.id} name={props.name}/>);
-    let MessagesElements = props.state.userMessages.messages
-        .map(props  => <Dialog dialog={props.dialog} id={props.id}/>);
+const Messages = (props) => {
+    debugger;
 
+    let UserElements = props.userPage
+        .map(u => <UserItem id={u.id} name={u.name}/>);
+    let MessagesElements = props.userMessages
+        .map(d => <Dialog dialog={d.dialog} id={d.id}/>);
 
 
     const sendMessage = () => {
-        props.dispatch(newMessageActionCreator());
+        props.onMessageChange()
     };
 
 
-    const onMessageChange =(event)=>{
+    const onMessageChange = (event) => {
         let textMessage = event.target.value;
-        props.dispatch(newMessageUpdateActionCreator(textMessage))
+        props.onMessageTextChange(textMessage)
     }
 
 
     return (
         <React.Fragment>
             <div className={classes.dialogs}>
-                <div>
+                <div className={classes.userArea}>
                     <a className={classes.users}>{UserElements}</a>
                 </div>
                 <div>
-                <div className={classes.messages}>
-                    {MessagesElements}
-                </div>
-                    <div>
-                        <input className={classes.textMessage}  value={props.state.userMessages.messageTextElement} onChange={onMessageChange}/>
+                    <div className={classes.chatArea}>
+                        {MessagesElements}
+                        <input className={classes.textMessage} placeholder='Type to send message...'
+                               value={props.messageTextElement} onChange={onMessageChange}/>
                         <button className={classes.sendMessage} onClick={sendMessage}>Send</button>
                     </div>
                 </div>

@@ -2,11 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1d729b5-d2da-47a0-8752-387a0f948cd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/FriendsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/MessagesContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/SettingContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/MyPostsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/ProfileContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/friendsPageReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/store-redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/userPageReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Friends/friends.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/User/userItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Messages/messages.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/Settings/settings.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/Header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/Header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/Post/posts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/MyPosts/myposts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/ProfileDescription/profiledescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/ProfileDescription/profiledescription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/ProfileDescription/profiledescription.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/ProfileDescription/profiledescription.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/MainContent/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/emotionPageReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/emotionPageReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/howStoreWorks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/componets/StateData/userMessagesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/componets/StateData/userMessagesReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
     </list>
@@ -279,7 +304,27 @@
       <workItem from="1588327366467" duration="3192000" />
       <workItem from="1588414248815" duration="5116000" />
       <workItem from="1588419896182" duration="17000" />
-      <workItem from="1588419925744" duration="347000" />
+      <workItem from="1588419925744" duration="6468000" />
+      <workItem from="1588440731152" duration="996000" />
+      <workItem from="1588495175588" duration="223000" />
+      <workItem from="1588504327982" duration="5282000" />
+      <workItem from="1588523872150" duration="1537000" />
+      <workItem from="1588579697049" duration="3948000" />
+      <workItem from="1588612383472" duration="2991000" />
+      <workItem from="1588655160841" duration="3854000" />
+      <workItem from="1588667487087" duration="604000" />
+      <workItem from="1588945075127" duration="1417000" />
+      <workItem from="1588960600480" duration="307000" />
+      <workItem from="1589024845930" duration="5013000" />
+      <workItem from="1589097651114" duration="3246000" />
+      <workItem from="1589116969174" duration="409000" />
+      <workItem from="1589267771356" duration="1588000" />
+      <workItem from="1589279273320" duration="6502000" />
+      <workItem from="1589299658173" duration="1343000" />
+      <workItem from="1589348242421" duration="7290000" />
+      <workItem from="1589390638429" duration="1735000" />
+      <workItem from="1589432778982" duration="1409000" />
+      <workItem from="1589439329796" duration="4461000" />
     </task>
     <task id="LOCAL-00001" summary="v0.8">
       <created>1588418530337</created>
@@ -288,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588418530337</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v0.8">
+      <created>1588420480594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588420480594</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,10 +392,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="718" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582052595001" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1588418529517">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1588420479694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588418529517" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588420479694" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587108367187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -356,10 +408,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587457576736" />
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1588418186302">
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup" timestamp="1589103677205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588418186302" />
+    <state x="616" y="242" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589103677205" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588419714190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

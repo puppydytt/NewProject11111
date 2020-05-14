@@ -1,6 +1,6 @@
+/*
 import userMessagesReducer from "./userMessagesReducer";
 import emotionPageReducer from "./emotionPageReducer";
-
 
 let store = {
     _state: {
@@ -49,8 +49,8 @@ let store = {
 
     dispatch(action) {
         debugger;
-        this._state.userMessages = userMessagesReducer(action, this._state.userMessages)
-        this._state.emotionPage = emotionPageReducer(action, this._state.emotionPage)
+        this._state.userMessages = userMessagesReducer(this._state.userMessages, action)
+        this._state.emotionPage = emotionPageReducer(this._state.emotionPage, action)
         this._callSubscriber(this._state);
 
     }
@@ -59,4 +59,4 @@ let store = {
 
 window.store = store;
 
-export default store;
+export default store;*/
